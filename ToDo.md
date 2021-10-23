@@ -3,7 +3,7 @@
 ## Initial Installs
 
 - [x] Run `npx create-react-app appName --scripts-version 4.0.1` from the terminal
-- [ ] Run `npm init` from the terminal
+- [x] Run `npm init` from the terminal
 - [ ] Run `npm install express` from the terminal
 - [ ] Run `npm install pg` from the terminal
 - [ ] Run `npm install axios` from the terminal
@@ -22,11 +22,11 @@
 
 ### `.gitignore`
 
-- [ ] Make sure the `.gitignore` file has:
-  - [ ] `node_modules/`
-  - [ ] `.DS_Store`
-  - [ ] `.eslintcache`
-  - [ ] `.env`
+- [x] Make sure the `.gitignore` file has:
+  - [x] `node_modules/`
+  - [x] `.DS_Store`
+  - [x] `.eslintcache`
+  - [x] `.env`
 
 ### `package.json`
 

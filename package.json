@@ -43,9 +43,5 @@
     "url": "git+https://github.com/William-Krug/color-mixer.git"
   },
   "author": "William Krug",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/William-Krug/color-mixer/issues"
-  },
-  "homepage": "https://github.com/William-Krug/color-mixer#readme"
+  "license": "MIT"
 }
