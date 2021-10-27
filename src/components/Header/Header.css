@@ -1,0 +1,28 @@
+header {
+  background-color: #282c34;
+  color: #ffffff;
+}
+
+.letter-ff0000 {
+  color: #ff0000;
+}
+
+.letter-ffa500 {
+  color: #ffa500;
+}
+
+.letter-ffff00 {
+  color: #ffff00;
+}
+
+.letter-008000 {
+  color: #008000;
+}
+
+.letter-0000ff {
+  color: #0000ff;
+}
+
+/* .letter-ffffff {
+  color: #ffffff;
+} */

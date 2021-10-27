@@ -109,3 +109,51 @@
   - [ ] `const sagaMiddleware = createSagaMiddleware()`
   - [ ] add `sagaMiddleware` to the `store` in the `applyMiddleware()` section
   - [ ] `sagaMiddleware.run(watcherSaga)`
+
+## Functionality
+
+- [ ] Create Footer
+- [ ] Create Header
+  - [ ] App title
+  - [ ] color type selection
+  - [ ] nav links to different pages
+- [ ] pigment colors component
+- [ ] two pigment mix results
+- [ ] two pigment page
+- [ ] three pigment mix results
+- [ ] three pigment page
+- [ ] four pigment mix results
+- [ ] four pigment page
+- [ ] definitions page
+- [ ] two light mix results
+- [ ] two light page
+- [ ] three light mix results
+- [ ] three light page
+- [ ] four light mix results
+- [ ] four light page
+
+color: #ff0000; //red
+color: #0000ff; //blue
+color: #ffff00; //yellow
+color: #ffffff; //white
+color: #000000; //black
+color: #808080; //grey
+color: #ffa500; //orange
+color: #008000; //green
+color: #ee82ee; //violet
+color: #808000; //olive
+color: #c0c2c9; //slate
+color: #a52a2a; //brown
+color: #ff00ff; //magenta
+color: #800080; //purple
+color: #008080; //teal
+color: #7fff00; //chartreuse
+color: #ffbf00; //amber
+color: #e34234; //vermilion
+color: #463430; //cedar
+color: #bcb88a; //sage
+color: #6f4e37; //coffee
+color: #ffc0cb; //pink
+color: #8b0000; //darkred
+color: #bf4040; //red-grey
+color: #800000; //maroon
