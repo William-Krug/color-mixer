@@ -4,74 +4,74 @@
 export const pigmentColors = [
   {
     color: 'black',
-    hexCode: '000000',
+    hexCode: 'h000000',
   },
   {
     color: 'white',
-    hexCode: 'ffffff',
+    hexCode: 'hffffff',
   },
   {
     color: 'grey',
-    hexCode: '808080',
+    hexCode: 'h808080',
   },
   {
     color: 'red',
-    hexCode: 'ff0000',
+    hexCode: 'hff0000',
   },
   {
     color: 'blue',
-    hexCode: '0000ff',
+    hexCode: 'h0000ff',
   },
   {
     color: 'yellow',
-    hexCode: 'ffff00',
+    hexCode: 'hffff00',
   },
   {
     color: 'orange',
-    hexCode: 'ffa500',
+    hexCode: 'hffa500',
   },
   {
     color: 'green',
-    hexCode: '008000',
+    hexCode: 'h008000',
   },
   {
     color: 'violet',
-    hexCode: 'ee82ee',
+    hexCode: 'hee82ee',
   },
   {
     color: 'olive',
-    hexCode: '808000',
+    hexCode: 'h808000',
   },
   {
     color: 'slate',
-    hexCode: 'c0c2c9',
+    hexCode: 'hc0c2c9',
   },
   {
     color: 'brown',
-    hexCode: 'a52a2a',
+    hexCode: 'ha52a2a',
   },
   {
     color: 'magenta',
-    hexCode: 'ff00ff',
+    hexCode: 'hff00ff',
   },
   {
     color: 'purple',
-    hexCode: '800080',
+    hexCode: 'h800080',
   },
   {
     color: 'teal',
-    hexCode: '008080',
+    hexCode: 'h008080',
   },
   {
     color: 'chartreuse',
-    hexCode: '7fff00',
+    hexCode: 'h7fff00',
   },
   {
     color: 'amber',
-    hexCode: 'ffbf00',
+    hexCode: 'hffbf00',
   },
   {
     color: 'vermilion',
-    hexCode: 'e34234',
+    hexCode: 'he34234',
   },
 ];
