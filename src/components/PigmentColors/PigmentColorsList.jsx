@@ -1,7 +1,19 @@
 /**
  *
  */
-export const pigmentColorsList = [
+export const pigmentColors = [
+  {
+    color: 'black',
+    hexCode: '000000',
+  },
+  {
+    color: 'white',
+    hexCode: 'ffffff',
+  },
+  {
+    color: 'grey',
+    hexCode: '808080',
+  },
   {
     color: 'red',
     hexCode: 'ff0000',
@@ -13,18 +25,6 @@ export const pigmentColorsList = [
   {
     color: 'yellow',
     hexCode: 'ffff00',
-  },
-  {
-    color: 'white',
-    hexCode: 'ffffff',
-  },
-  {
-    color: 'black',
-    hexCode: '000000',
-  },
-  {
-    color: 'grey',
-    hexCode: '808080',
   },
   {
     color: 'orange',
@@ -73,17 +73,5 @@ export const pigmentColorsList = [
   {
     color: 'vermilion',
     hexCode: 'e34234',
-  },
-  {
-    color: 'cedar',
-    hexCode: '463430',
-  },
-  {
-    color: 'sage',
-    hexCode: 'bcb88a',
-  },
-  {
-    color: 'coffee',
-    hexCode: '6f4e37',
   },
 ];

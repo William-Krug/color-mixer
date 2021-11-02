@@ -3,6 +3,11 @@ header {
   color: #ffffff;
 }
 
+.title {
+  padding-top: 5em;
+  text-align: center;
+}
+
 .letter-ff0000 {
   color: #ff0000;
 }
@@ -23,6 +28,6 @@ header {
   color: #0000ff;
 }
 
-/* .letter-ffffff {
-  color: #ffffff;
-} */
+.color-type {
+  padding-left: 1.5em;
+}

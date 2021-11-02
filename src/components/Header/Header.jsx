@@ -3,7 +3,7 @@ import React from 'react';
 
 /* Styles */
 import './Header.css';
-import { Grid, Typography } from '@mui/material';
+import { Divider, Grid, Link, Typography } from '@mui/material';
 
 /* Components */
 
@@ -13,44 +13,120 @@ import { Grid, Typography } from '@mui/material';
 function Header() {
   return (
     <header>
-      <Grid container>
-        <Grid item xs={12} className="title">
-          <Typography>
-            <span className="letter-ff0000">C</span>
-            <span className="letter-ffa500">O</span>
-            <span className="letter-ffff00">L</span>
-            <span className="letter-008000">O</span>
-            <span className="letter-0000ff">R</span>
-            <span> Mixer</span>
-          </Typography>
+      <Grid container rowSpacing={5}>
+        {/* App name (row 1) */}
+        <Grid container item>
+          <Grid item xs={12} className="title">
+            <Typography variant="h1" component="h1">
+              <span className="letter-ff0000">C</span>
+              <span className="letter-ffa500">O</span>
+              <span className="letter-ffff00">L</span>
+              <span className="letter-008000">O</span>
+              <span className="letter-0000ff">R</span>
+              <span> Mixer</span>
+            </Typography>
+          </Grid>
         </Grid>
-      </Grid>
-      <Grid container className="mixing-options">
-        <Grid item xs={6}>
-          <Typography>Pigment Mixing</Typography>
-        </Grid>
-        <Grid item xs={6}>
-          <Typography>Light Mixing</Typography>
-        </Grid>
-      </Grid>
-      <Grid container className="navigation">
-        <Grid item xs={2}>
-          2 Colors
-        </Grid>
-        <Grid item xs={2}>
-          3 Colors
-        </Grid>
-        <Grid item xs={2}>
-          4 Colors
-        </Grid>
-        <Grid item xs={2}>
-          2 Colors
-        </Grid>
-        <Grid item xs={2}>
-          3 Colors
-        </Grid>
-        <Grid item xs={2}>
-          4 Colors
+
+        {/* Navigation (row 2) */}
+        <Grid container item rowSpacing={3} className="mixing-options">
+          {/* Pigment */}
+          <Grid
+            container
+            item
+            xs={12}
+            md={6}
+            rowSpacing={3}
+            className="color-type"
+          >
+            <Grid item xs={12}>
+              <Typography variant="h3" component="h2">
+                Pigment Mixing
+              </Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Link
+                href="#"
+                color="inherit"
+                underline="none"
+                variant="body2"
+                component="a"
+              >
+                2 Colors
+              </Link>
+            </Grid>
+            <Grid item xs={4}>
+              <Link
+                href="#"
+                color="inherit"
+                underline="none"
+                variant="body2"
+                component="a"
+              >
+                3 Colors
+              </Link>
+            </Grid>
+            <Grid item xs={4}>
+              <Link
+                href="#"
+                color="inherit"
+                underline="none"
+                variant="body2"
+                component="a"
+              >
+                4 Colors
+              </Link>
+            </Grid>
+          </Grid>
+
+          {/* Light */}
+          <Grid
+            container
+            item
+            xs={12}
+            md={6}
+            rowSpacing={3}
+            className="color-type"
+          >
+            <Grid item xs={12}>
+              <Typography variant="h3" component="h2">
+                Light Mixing
+              </Typography>
+            </Grid>
+            <Grid item xs={4}>
+              <Link
+                href="#"
+                color="inherit"
+                underline="none"
+                variant="body2"
+                component="a"
+              >
+                2 Colors
+              </Link>
+            </Grid>
+            <Grid item xs={4}>
+              <Link
+                href="#"
+                color="inherit"
+                underline="none"
+                variant="body2"
+                component="a"
+              >
+                3 Colors
+              </Link>
+            </Grid>
+            <Grid item xs={4}>
+              <Link
+                href="#"
+                color="inherit"
+                underline="none"
+                variant="body2"
+                component="a"
+              >
+                4 Colors
+              </Link>
+            </Grid>
+          </Grid>
         </Grid>
       </Grid>
     </header>

@@ -22,9 +22,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //blue
@@ -46,9 +43,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //yellow
@@ -70,9 +64,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //white
@@ -94,9 +85,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //black
@@ -118,9 +106,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //grey
@@ -142,9 +127,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //orange
@@ -166,9 +148,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //green
@@ -190,9 +169,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //violet
@@ -214,9 +190,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //olive
@@ -230,17 +203,14 @@ export const twoPigmentMixResults = [
     'green',
     'violet',
     '808000',
-    'slate',
-    'brown',
+    'bcb88a',
+    '6f4e37',
     'magenta',
     'purple',
     'teal',
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //slate
@@ -253,18 +223,15 @@ export const twoPigmentMixResults = [
     'orange',
     'green',
     'violet',
-    'olive',
+    'bcb88a',
     'c0c2c9',
-    'brown',
+    '463430',
     'magenta',
     'purple',
     'teal',
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //brown
@@ -277,8 +244,8 @@ export const twoPigmentMixResults = [
     'orange',
     'green',
     'violet',
-    'olive',
-    'slate',
+    '6f4e37',
+    '463430',
     'a52a2a',
     'magenta',
     'purple',
@@ -286,9 +253,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //magenta
@@ -310,9 +274,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //purple
@@ -334,9 +295,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //teal
@@ -358,9 +316,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //chartreuse
@@ -382,9 +337,6 @@ export const twoPigmentMixResults = [
     '7fff00',
     'amber',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //amber
@@ -406,9 +358,6 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'ffbf00',
     'vermilion',
-    'cedar',
-    'sage',
-    'coffee',
   ],
   [
     //vermilion
@@ -430,80 +379,5 @@ export const twoPigmentMixResults = [
     'chartreuse',
     'amber',
     'e34234',
-    'cedar',
-    'sage',
-    'coffee',
-  ],
-  [
-    //cedar
-    'red',
-    'blue',
-    'yellow',
-    'white',
-    'black',
-    'grey',
-    'orange',
-    'green',
-    'violet',
-    'olive',
-    'slate',
-    'brown',
-    'magenta',
-    'purple',
-    'teal',
-    'chartreuse',
-    'amber',
-    'vermilion',
-    '463430',
-    'sage',
-    'coffee',
-  ],
-  [
-    //sage
-    'red',
-    'blue',
-    'yellow',
-    'white',
-    'black',
-    'grey',
-    'orange',
-    'green',
-    'violet',
-    'olive',
-    'slate',
-    'brown',
-    'magenta',
-    'purple',
-    'teal',
-    'chartreuse',
-    'amber',
-    'vermilion',
-    'cedar',
-    'bcb88a',
-    'coffee',
-  ],
-  [
-    //coffee
-    'red',
-    'blue',
-    'yellow',
-    'white',
-    'black',
-    'grey',
-    'orange',
-    'green',
-    'violet',
-    'olive',
-    'slate',
-    'brown',
-    'magenta',
-    'purple',
-    'teal',
-    'chartreuse',
-    'amber',
-    'vermilion',
-    'cedar',
-    'sage',
-    '6f4e37',
   ],
 ];

@@ -1,4 +1,5 @@
 /* Libraries */
+import React from 'react';
 
 /* Styles */
 import './Footer.css';
