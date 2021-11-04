@@ -3,7 +3,7 @@ import React from 'react';
 
 /* Styles */
 import './Footer.css';
-import { Divider, Grid, Link, Typography } from '@mui/material';
+import { Grid, Link, Typography } from '@mui/material';
 
 /* Components */
 

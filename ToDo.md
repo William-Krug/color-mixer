@@ -7,8 +7,8 @@
 - [ ] Run `npm install express` from the terminal
 - [ ] Run `npm install pg` from the terminal
 - [ ] Run `npm install axios` from the terminal
-- [ ] Run `npm install react` from the terminal
-- [ ] Run `npm install react-router-dom` from the terminal
+- [x] Run `npm install react` from the terminal
+- [x] Run `npm install react-router-dom` from the terminal
 - [ ] Run `npm install redux react-redux` from the terminal
 - [ ] Run `npm install redux-logger` from the terminal
 - [ ] Run `npm install dotenv` from the terminal
@@ -112,12 +112,12 @@
 
 ## Functionality
 
-- [ ] Create Footer
-- [ ] Create Header
-  - [ ] App title
-  - [ ] color type selection
-  - [ ] nav links to different pages
-- [ ] pigment colors component
+- [x] Create Footer
+- [x] Create Header
+  - [x] App title
+  - [x] color type selection
+  - [x] nav links to different pages
+- [x] pigment colors component
 - [ ] two pigment mix results
 - [ ] two pigment page
 - [ ] three pigment mix results

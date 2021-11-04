@@ -1,14 +1,15 @@
 /* Libraries */
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 /* Styling */
 import './App.css';
-import { CssBaseline, Typography } from '@mui/material';
+import { CssBaseline } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 /* Components */
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import PigmentColors from '../PigmentColors/PigmentColors';
+import TwoPigments from '../TwoPigments/TwoPigments';
 
 /* Generate own Material-UI theme */
 const customTheme = createTheme({
@@ -26,18 +27,6 @@ const customTheme = createTheme({
     body1: {},
     body2: {},
   },
-  // components: {
-  //   MuiDivider: {
-  //     StyleOverrides: {
-  //       root: {
-  //         fontWeight: 700,
-  //         fontSize: '1em',
-  //         light: 'true',
-  //         color: '#ffffff',
-  //       },
-  //     },
-  //   },
-  // },
 });
 
 function App() {
@@ -45,8 +34,12 @@ function App() {
     <ThemeProvider theme={customTheme}>
       <CssBaseline />
       <Header />
-      <PigmentColors />
       <Footer />
+      <Router>
+        <Route exact path="/">
+          <TwoPigments />
+        </Route>
+      </Router>
     </ThemeProvider>
   );
 }
